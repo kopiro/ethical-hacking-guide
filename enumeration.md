@@ -11,7 +11,7 @@ It is also a process for sending packets to specific ports on a host and analyzi
 A TCP complete scan with OS/version detection is the best thing to start with.
 
 ```sh
-nmap -p- -sV -Pn -A -oA $RHOST
+nmap -p- -sV -Pn -A $RHOST
 ```
 
 * `-p-` : Scan all ports
